@@ -1,0 +1,12 @@
+list_num=[]
+Num_even=0
+Num_odd=0
+i=0
+for i in range(i,len(list_num)):
+    if i%2==0:
+        Num_even+=1
+    else:
+        Num_odd+=1
+
+print('count of even:', (Num_even))
+print('count of odd:' ,( Num_odd))
